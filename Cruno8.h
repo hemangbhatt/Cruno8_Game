@@ -2,7 +2,7 @@
 ** Project:     CMSC 202 Project4, Spring 2016                                                                                                                                                            
 ** Author:      Hemang Bhatt                                                                                                                                                                              
 ** Date:        03/10/15                                                                                                                                                                                  
-** Description: This file contains Cruno8 class's functions prototypes  
+** This file contains Cruno8 class' functions prototypes. 
  **********************************************************/
 
 #ifndef CRUNO8_H

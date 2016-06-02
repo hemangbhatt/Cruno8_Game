@@ -1,0 +1,193 @@
+CMSC202 Project 4 Gradesheet 
+-----------------------------------------------------------------
+Student ID: hb6
+
+Max grade: 100 
+Raw grade: 97
+Late penalty: 0
+Total grade: 97
+
+(Total grade = Raw grade - Late penalty)
+
+
+General comments:
+
+
+
+-----------------------------------------------------------------
+I. Critical Errors
+
+x   None
+
+   No submission (skip rest) 0
+
+   Program does not compile or does not run, or runs but does not
+      produce output even after minor tweaks.  Grading based on effort.
+
+      Removing one or two major bugs will fix this project. (40-50)
+      Significant progress made, but major rewrite is necessary. (30-40)
+      Not much progress made. (10-30)
+      Barely started coding. (0-10)
+
+      Score = 
+
+      Rest of grade sheet is skipped.
+
+   Other: 
+
+
+
+-----------------------------------------------------------------
+
+II. Correctness
+
+   A. Program as submitted.
+
+      Did not submit mytest.cpp (Modify proj4main.cpp)  -3
+      Program does not produce output or seg faults -5
+      Player does not pick suit after playing Cruno8 -3
+      Valgrind reports memory leak -2
+
+
+   B. Test #0. Compatibility check with WrapperPlayer [proj4test0.cpp]
+       
+      No points. Tweak program as needed to compile.
+
+
+   C. Test #1. Test pickSuit() [proj4test1.cpp]
+
+x      pickSuit() selects most common suit.
+
+      pickSuit() selects suit other than most common suit,
+        but source code shows alternate selection strategy  -0
+
+      pickSuit() always selects same suit and source code
+        does not indicate any selection strategy  -5
+
+      Program does not compile or run even after tweaking -5
+      Program seg faults without producing output -5
+      Program seg faults at the end -2
+      Valgrind reports memory leak -1
+
+
+   D. Test #2. Test CrunoDraw2 [proj4test2.cpp]
+
+x      CrunoDraw2 makes next player draw two cards. 
+      Next player also gets skipped -0
+
+      No player draws cards -3
+      Wrong player draws cards -2
+
+      Program does not compile or run even after tweaking -5
+      Program seg faults without producing output -5
+      Program seg faults at the end -2
+      Valgrind reports memory leak -1
+
+
+   E. Test #3. Test CrunoSkip [proj4test3.cpp]
+
+x      CrunoSkip makes next player skip a turn
+
+      Wrong player gets skipped -3
+      More than one player gets skipped per CrunoSkip -2
+
+      Program does not compile or run even after tweaking -5
+      Program seg faults without producing output -5
+      Program seg faults at the end -2
+      Valgrind reports memory leak -1
+
+
+   F. Test #4. Test CrunoReverse [proj4test4.cpp] 
+
+x      CrunoReverse reverses direction of play
+
+      CurnoReverse does not always change direction -3
+
+      Program does not compile or run even after tweaking -5
+      Program seg faults without producing output -5
+      Program seg faults at the end -2
+      Valgrind reports memory leak -1
+
+
+   G. Test #5. Test CrunoDraw2 combined with CrunoReverse [proj4test5.cpp]
+      (Tests cmp() function for ties.)
+
+x      CrunoDraw2 makes next player draw two cards. 
+      Next player also gets skipped -0
+
+      No player draws cards -3
+      Wrong player draws cards -2
+
+      Program does not compile or run even after tweaking -5
+      Program seg faults without producing output -5
+      Program seg faults at the end -2
+      Valgrind reports memory leak -1
+
+
+   H. Test #6. Test CrunoSkip combined with CrunoReverse [proj4test6.cpp]
+
+x      CrunoSkip makes correct player skip a turn
+
+      Wrong player gets skipped -3
+      More than one player gets skipped per CrunoSkip -2
+
+      Program does not compile or run even after tweaking -5
+      Program seg faults without producing output -5
+      Program seg faults at the end -2
+      Valgrind reports memory leak -1
+
+
+   I. Test #7. Check discard pile added back to game. [proj4test7.cpp]
+
+x      Play continues after stock runs out
+
+      Play ends when stock runs out -3
+
+      Program does not compile or run even after tweaking -5
+      Program seg faults without producing output -5
+      Program seg faults at the end -2
+      Valgrind reports memory leak -1
+
+
+   J. Player strategies
+ 
+      Overrode playOneCard() in CrunoPlayer and implemented at least one strategy
+
+x      Did not override playOneCard() in CrunoPlayer  -3
+      Overrode playOneCard() in CrunoPlayer, but always plays first playable card  -2
+     
+
+   Other errors (specify):
+
+
+
+-----------------------------------------------------------------
+
+IV. Program Design and Structure
+
+x    Program design follows project design philosophy
+
+    Overrides playGame() in CrunoGame to handle card actions  -8
+        (Card actions should be handled by Card class functions.)
+
+    Other errors (specify):
+
+
+-----------------------------------------------------------------
+
+IV. Coding Standards
+
+x   Program has good indentation, comments and choice of variable names
+
+   Poor/inconsistent indentation scheme  -2
+
+   In-line comments are:
+      terse and not meaningful -3
+      non-existent -5
+
+   Poor choice of variable names -1
+      Comment:
+
+
+-----------------------------------------------------------------
+

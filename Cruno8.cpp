@@ -4,7 +4,6 @@
  ** Author:  Hemang Bhatt                                                       
  ** Date:    04/22/16                                                           
  **                                                                             
- **   This file contains the implemention of Cruno8 Class.
  **                                                                             
  ***********************************************/
 

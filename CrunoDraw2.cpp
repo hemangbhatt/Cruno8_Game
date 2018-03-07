@@ -1,4 +1,4 @@
-*****************************************                                                                                                                                                                 
+/*****************************************                                                                                                                                                                 
  ** File:    CrunoDraw2.cpp                                                                                                             
  ** Project: CMSC 202 Project 4, Spring 2016                                                                                                                                                               
  ** Author:  Hemang Bhatt                                                                                                                                                                                  
